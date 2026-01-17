@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WildeCoreOS Downloads</title>
-<style>
-  body { 
-    background-color: black; 
-    color: white; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    text-align: center; 
-    padding: 50px;
-  }
-  a.button {
-    display: inline-block;
-    padding: 15px 30px;
-    margin-top: 20px;
-    color: white;
-    background-color: #333;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 18px;
-  }
-  a.button:hover { background-color: #555; }
-</style>
+    <meta charset="UTF-8">
+    <title>WildeCoreOS Downloads</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background-color: #111;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 40px 20px;
+        }
+        .download-link {
+            display: block;
+            margin: 15px 0;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-<h1>WildeCoreOS Downloads</h1>
-<p>Click the button below to access the Google Drive folder with all releases:</p>
-<a class="button" href="YOUR_GOOGLE_DRIVE_LINK_HERE" target="_blank">Go to Downloads</a>
+    <header>
+        <h1>WildeCoreOS Downloads</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="downloads.html">Downloads</a>
+        </nav>
+    </header>
+    <main>
+        <p>Download WildeCoreOS releases here:</p>
+        <a class="download-link" href="YOUR_GOOGLE_DRIVE_LINK_1" target="_blank">WildeCoreOS 1.0 Base GSI</a>
+        <a class="download-link" href="YOUR_GOOGLE_DRIVE_LINK_2" target="_blank">WildeCoreOS 1.0 Lite GSI</a>
+        <a class="download-link" href="YOUR_GOOGLE_DRIVE_LINK_3" target="_blank">WildeCoreOS 1.0 Bootanimation</a>
+        <a class="download-link" href="YOUR_GOOGLE_DRIVE_LINK_4" target="_blank">WildeCoreLite 1.0 Bootanimation</a>
+        <p>More releases will be added here as they are built.</p>
+    </main>
 </body>
 </html>
