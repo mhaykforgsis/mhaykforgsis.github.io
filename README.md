@@ -27,11 +27,6 @@ This ROM is designed to provide a **smooth, customizable, and safe Android exper
 
 ---
 
-## 🔗 WildeCoreOS Updates
-
-Follow our Telegram channel for the latest builds and announcements:  
-
-👉 [WildeCoreOS Updates](https://t.me/wildcoreosupdates129110)
 
 ---
 
