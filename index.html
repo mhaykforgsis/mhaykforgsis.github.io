@@ -6,60 +6,101 @@
 <title>WildeCoreOS</title>
 <style>
   body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black;
     background-image: url('https://i.pinimg.com/736x/94/d5/dd/94d5dd5fcee73690cc8c8f3d88c3a6c9.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
-    font-family: Arial, sans-serif;
+  }
+
+  nav {
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+  }
+
+  nav ul {
+    list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    line-height: 1.5;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
   }
+
+  nav ul li {
+    margin: 0 20px;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  nav ul li a:hover {
+    color: #ff9900;
+  }
+
   .content {
-    background: rgba(0,0,0,0.7);
-    padding: 20px 30px;
-    border-radius: 12px;
     max-width: 800px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 15px;
   }
-  ul {
-    text-align: left;
-    margin: 0 auto;
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 25px;
+    color: white;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .button:hover {
+    background-color: #555;
   }
 </style>
 </head>
 <body>
-  <div class="content">
-    <h1>Welcome to WildeCoreOS</h1>
-    <p>
-      Hi, on this site will be the releases of WildeCoreOS. This OS is based off LineageOS with customizations from RisingOS and with wallpapers from Pinterest.
-    </p>
-    <p>
-      I will make some betas and post updates here. Releases will be on this site too.  
-      But I don’t have my laptop right now — I gave it to my brother for learning.  
-      I will get my laptop back in April.  
-      Also, releases may take a little longer due to hardware limitations (8GB RAM DDR4, Intel Core i5‑10210U, 256GB NVMe SSD) plus I need a 1TB HDD/SSD to make it all.
-    </p>
-    <p>Devices in the first release:</p>
-    <ul>
-      <li>Moto G84</li>
-      <li>Moto G54</li>
-      <li>Moto Edge 30 & 20 series</li>
-      <li>Moto Edge 40 Fusion</li>
-      <li>Moto Edge 50 Fusion</li>
-    </ul>
-    <p>
-      If I don’t post builds for a while, it’s because of slow WiFi or lack of laptop access.  
-      I will not test on my main device — only on a backup.  
-      I hope this project won’t fail like ChairyOS or mhaykAOSP.  
-      Thank you for your patience until the first release.
-    </p>
-  </div>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="downloads.html">Downloads</a></li>
+  </ul>
+</nav>
+
+<div class="content">
+  <h1>Welcome to WildeCoreOS</h1>
+  <p>Hi, on this site you will find releases of WildeCoreOS. This OS is based on LineageOS with customizations from RisingOS. The wallpapers are from Pinterest.</p>
+  <p>All releases will be available on the Downloads tab. Updates and betas will also appear here. Please be patient, as releases may take longer due to hardware limitations.</p>
+  <p>Supported devices in the first release:</p>
+  <ul style="text-align: left; font-size: 18px;">
+    <li>Moto G84</li>
+    <li>Moto G54</li>
+    <li>Moto Edge 30 and 20 series</li>
+    <li>Moto Edge 40 Fusion</li>
+    <li>Moto Edge 50 Fusion</li>
+  </ul>
+</div>
+
 </body>
 </html>
