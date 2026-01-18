@@ -2,18 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>WildeCoreOS Downloads</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- OnePlus Sans font -->
-  <link href="https://fonts.googleapis.com/css2?family=One+Plus+Sans:wght@400;700&display=swap" rel="stylesheet">
-
+  <title>WildeCoreOS Downloads</title>
+  <link href="https://fonts.googleapis.com/css2?family=One+Plus+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    * {
+      font-family: 'One Plus Sans', sans-serif !important;
+    }
+
     body {
       margin: 0;
-      font-family: 'One Plus Sans', sans-serif;
-      font-size: 18px;
       color: white;
       background-image: url("https://i.pinimg.com/736x/94/d5/dd/94d5dd5fcee73690cc8c8f3d88c3a6c9.jpg");
       background-size: cover;
@@ -31,27 +29,25 @@
 
     .container {
       max-width: 1000px;
-      width: 100%;
+      padding: 40px;
       background: rgba(0,0,0,0.4);
       backdrop-filter: blur(10px);
       border-radius: 20px;
-      padding: 40px;
       text-align: center;
     }
 
     h1 {
-      font-size: 2.8rem;
-      margin-bottom: 25px;
+      font-size: 3rem;
+      margin-bottom: 15px;
     }
 
-    .download-box {
-      background: rgba(255,255,255,0.1);
-      padding: 25px;
-      border-radius: 15px;
-      margin-top: 20px;
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
     }
 
-    a.button {
+    .nav a {
       display: inline-block;
       margin-top: 15px;
       padding: 14px 28px;
@@ -63,12 +59,8 @@
       transition: 0.3s;
     }
 
-    a.button:hover {
+    .nav a:hover {
       background: #ddd;
-    }
-
-    .back {
-      margin-top: 30px;
     }
   </style>
 </head>
@@ -76,17 +68,16 @@
   <div class="overlay">
     <div class="container">
       <h1>Downloads</h1>
-
-      <div class="download-box">
-        <p>All WildeCoreOS builds are hosted on Google Drive.</p>
-
-        <a class="button" href="https://drive.google.com/drive/folders/1BrNpdgMhkPT-fFMvOLbTrjj84dnyU5F3" target="_blank">
-          Open Google Drive
+      <p>
+        Here are the WildeCoreOS builds:
+      </p>
+      <p>
+        <a href="https://drive.google.com/drive/folders/1BrNpdgMhkPT-fFMvOLbTrjj84dnyU5F3" target="_blank">
+          Google Drive Folder
         </a>
-      </div>
-
-      <div class="back">
-        <a class="button" href="index.html">Back to Home</a>
+      </p>
+      <div class="nav">
+        <a href="index.html">Home</a>
       </div>
     </div>
   </div>
