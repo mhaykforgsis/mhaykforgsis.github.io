@@ -1,61 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>WildeCoreOS</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: url('https://i.pinimg.com/736x/94/d5/dd/94d5dd5fcee73690cc8c8f3d88c3a6c9.jpg') no-repeat center center fixed;
-            background-size: cover;
-            color: white;
-            text-align: center;
-        }
-        header {
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.6);
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        main {
-            padding: 40px 20px;
-            background-color: rgba(0, 0, 0, 0.5);
-            margin: 20px;
-            border-radius: 10px;
-        }
-        ul {
-            text-align: left;
-            display: inline-block;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>WildeCoreOS</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- OnePlus Sans font -->
+  <link href="https://fonts.googleapis.com/css2?family=One+Plus+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'One Plus Sans', sans-serif;
+      font-size: 18px;
+      color: white;
+      background-image: url("https://i.pinimg.com/736x/94/d5/dd/94d5dd5fcee73690cc8c8f3d88c3a6c9.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    .overlay {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      padding: 40px;
+      background: rgba(0,0,0,0.4);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.3rem;
+      line-height: 1.6;
+    }
+
+    .nav a {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 28px;
+      background: #ffffff;
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .nav a:hover {
+      background: #ddd;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>WildeCoreOS</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="downloads.html">Downloads</a>
-        </nav>
-    </header>
-    <main>
-        <p>Hi, on this site you will find WildeCoreOS releases. This OS is based on LineageOS with customizations from RisingOS.</p>
-        <p>Releases are available via Google Drive. I currently don’t have my laptop, so releases may take longer.</p>
-        <p>Supported devices in the first release:</p>
-        <ul>
-            <li>Moto G84</li>
-            <li>Moto G54</li>
-            <li>Moto Edge 30 & 20 series</li>
-            <li>Moto Edge 40 Fusion</li>
-            <li>Moto Edge 50 Fusion</li>
-        </ul>
-    </main>
+  <div class="overlay">
+    <div class="container">
+      <h1>WildeCoreOS</h1>
+      <p>
+        Custom Android experience focused on style, smoothness, and clean UI.
+      </p>
+
+      <div class="nav">
+        <a href="downloads.html">Downloads</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
